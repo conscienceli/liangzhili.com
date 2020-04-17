@@ -18,24 +18,24 @@ organizations:
   url: "http://www.naist.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology ( NAIST), Japan.
 
 interests:
+- Artificial Reality
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computer Vision
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Engineering
+    institution: Nara Institute of Science and Technology (NAIST)
+    year: 2022
+  - course: MEng in Computer Science
+    institution: Qufu Normal University
+    year: 2018
+  - course: BSc in Computer Science
+    institution: Qufu Normal University
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +44,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: 'mailto:niu.zhaofeng.mv7@is.naist.jp'  # For a direct email link, use "mailto:test@example.org".
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/GeorgeCushen
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: facebook
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.facebook.com/sara.new.56614
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/saranew
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UCMv6QJuIdeV8oHzRm7GOkqA
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,6 +76,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology ( NAIST), Japan.
