@@ -18,7 +18,7 @@ organizations:
   url: "http://www.naist.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology ( NAIST), Japan.
+bio: Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology (NAIST), Japan.
 
 interests:
 - Artificial Reality
@@ -76,4 +76,4 @@ user_groups:
 - Visitors
 ---
 
-Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology ( NAIST), Japan.
+Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology (NAIST), Japan.
