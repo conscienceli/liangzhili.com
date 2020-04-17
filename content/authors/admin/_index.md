@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Zhaofeng Niu (Sara)
+name: Liangzhi Li (李良知)
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student of Artificial Intelligence
+role: Researcher of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: Nara Institute of Science and Technology (NAIST)
-  url: "http://www.naist.jp/"
+- name: Osaka University
+  url: "http://www.osaka-u.ac.jp"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology (NAIST), Japan.
+bio: Liangzhi Li received the B.Sc and M.Eng degrees in Computer Science from South China University of Technology (SCUT), China, in 2012 and 2016, respectively, and Ph.D. degree in Engineering from Muroran Institute of Technology, Japan, in 2019. He is currently a researcher with Institute for Datability Science, Osaka University, Japan. His main fields of research interest include computer vision, deep learning, and medical imaging.
 
 interests:
-- Artificial Reality
-- Artificial Intelligence
 - Computer Vision
+- Deep Learning
+- Medical Imaging
 
 education:
   courses:
   - course: PhD in Engineering
-    institution: Nara Institute of Science and Technology (NAIST)
-    year: 2022
+    institution: Muroran Institute of Technology, Japan
+    year: 2019
   - course: MEng in Computer Science
-    institution: Qufu Normal University
-    year: 2018
+    institution: South China University of Technology (SCUT)
+    year: 2016
   - course: BSc in Computer Science
-    institution: Qufu Normal University
-    year: 2015
+    institution: South China University of Technology (SCUT)
+    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,22 +44,25 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:niu.zhaofeng.mv7@is.naist.jp'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/sara.new.56614
+  link: 'mailto:li@ids.osaka-u.ac.jp'  # For a direct email link, use "mailto:test@example.org".
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=JIRw_tMAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/saranew
-- icon: youtube
+  link: https://github.com/conscienceli
+- icon: twitter
   icon_pack: fab
-  link: https://www.youtube.com/channel/UCMv6QJuIdeV8oHzRm7GOkqA
+  link: https://twitter.com/jconlee8
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/liliangzhi
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/liangzhi-li-80a553154/
+# - icon: youtube
+#   icon_pack: fab
+#   link: https://www.youtube.com/channel/UCMv6QJuIdeV8oHzRm7GOkqA
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -76,4 +79,4 @@ user_groups:
 - Visitors
 ---
 
-Zhaofeng Niu received her B.Eng and M.Sc from Qufu Normal University, China, in 2015 and 2018. During her master’s period, in 2017, she came to Japan and studied as an exchange student at Muroran Institute Technology University. Currently, she is pursuing the Ph.D. degree in Graduate School of Information Science at Nara Institute of Science and Technology (NAIST), Japan.
+Liangzhi Li received the B.Sc and M.Eng degrees in Computer Science from South China University of Technology (SCUT), China, in 2012 and 2016, respectively, and Ph.D. degree in Engineering from Muroran Institute of Technology, Japan, in 2019. He is currently a researcher with Institute for Datability Science, Osaka University, Japan. His main fields of research interest include computer vision, deep learning, and medical imaging. He has received the best paper award from FCST 2017 and IEEE Sapporo Section (2018).

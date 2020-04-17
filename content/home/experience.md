@@ -18,22 +18,42 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Research Assistant"
-  company = "Nara Institute of Science and Technology (NAIST)"
-  company_url = "http://www.naist.jp/"
-  location = "Ikoma, Nara, Japan"
-  date_start = "2020-04-01"
+  title = "Postdoctoral Researcher"
+  company = "Institute for Datability Science, Osaka University"
+  company_url = "http://www.ids.osaka-u.ac.jp/"
+  location = "Suita, Osaka, Japan"
+  date_start = "2019-04-01"
   date_end = ""
   description = """
   """
 
 [[experience]]
-  title = "Teaching Assistant"
-  company = "Nara Institute of Science and Technology (NAIST)"
-  company_url = "http://www.naist.jp/"
-  location = "Ikoma, Nara, Japan"
-  date_start = "2020-04-01"
-  date_end = ""
+  title = "Research Assistant"
+  company = "Department of Information and Electronic Engineering, Muroran Institute of Technology"
+  company_url = "https://www.muroran-it.ac.jp/"
+  location = "Muroran, Hokkaido, Japan"
+  date_start = "2016-10-01"
+  date_end = "2019-03-25"
+  description = """
+  """
+
+[[experience]]
+  title = "Visiting Scholar"
+  company = "Department of Computer Science, St. Francis Xavier University"
+  company_url = "https://www.muroran-it.ac.jp/"
+  location = "Antigonish, Nova Scotia, Canada"
+  date_start = "2019-01-15"
+  date_end = "2019-02-15"
+  description = """
+  """
+
+[[experience]]
+  title = "Software Engineer"
+  company = "Digital Network Division, Konka Group Co., Ltd"
+  company_url = "http://www.konka.com.hk/"
+  location = "Shenzhen, Guangdong, China"
+  date_start = "2012-07-15"
+  date_end = "2013-07-15"
   description = """
   """
 

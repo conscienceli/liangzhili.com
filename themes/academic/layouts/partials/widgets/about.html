@@ -27,10 +27,10 @@
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person.name}}">
       {{ else if $avatar }}
       <video id="avatar_video" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar.RelPermalink }}"
-       alt="{{$person.name}}" autoplay loop muted playsinline style="object-fit: cover;object-position: 30% 30%;width: 300px;height: 300px;"></video>
+       alt="{{$person.name}}" autoplay loop muted playsinline style="object-fit: cover;object-position: 80% 55%;width: 350px;height: 350px;"></video>
       <script>
         var vid = document.getElementById("avatar_video");
-        vid.playbackRate = 0.3;
+        vid.playbackRate = 0.1;
       </script>
       {{ end }}
 
