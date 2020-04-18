@@ -1,0 +1,34 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- News widget -->
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-8">
+    {{ with $page.Content }}{{ . }}{{ end }}
+
+    {{ if $page.Params.item }}
+      <ul class="fa-ul">
+        {{ range $idx, $key := sort $page.Params.item ".date" "desc" }}
+        
+          <li>
+            {{ if .ad}}
+              <i class="fa-li fas fa-ad" aria-hidden="true"></i>
+            {{else}}
+              <i class="fa-li fas fa-envelope-open-text" aria-hidden="true"></i>
+              <span class="mr-2"><b>{{ (time .date).Format ($page.Params.date_format | default "Jan 2006") }}:</b></span>
+            {{end}}
+            <span>
+              {{- with .url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
+                <span style="line-height:3px !important;">{{ .news | markdownify | emojify }}</span>
+              </a>
+            </span>
+          </li>
+        {{end}}
+      </ul>
+    {{end}}
+  </div>
+</div>
