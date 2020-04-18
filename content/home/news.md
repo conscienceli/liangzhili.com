@@ -23,7 +23,7 @@ date_format = "Jan 2006"
 [[item]]
   url = "http://www.ids.osaka-u.ac.jp/en/careers-intern/"
   ad = true
-  news = "Send me an email if you are interested in studying at Osaka University (as a PhD student or an intern). "
+  news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern). No requirement on language!"
   date = "2025-01-01"
 
 [[item]]
