@@ -1,0 +1,160 @@
+<!-- Github Calendar widget -->
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- Include the library. -->
+<script
+  src="github-calendar/dist/github-calendar.min.js">
+</script>
+
+
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="github-calendar/dist/github-calendar-responsive.css"
+/>
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-8">
+    <div class="row">
+      <div class="col-12 d-none d-md-block p-0 m-0 ">
+        <!-- Prepare a container for your calendar. -->
+        <!-- <div class="github-calendar"> -->
+            <!-- Loading stuff -->
+            <!-- Loading the data just for you. -->
+        <!-- </div> -->
+        <div class="col py-2">
+          <div class="card p-0 m-0">
+            <div class="github-calendar card-body p-0 m-0">
+              <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" class="spinner mx-auto"/>
+              <p class="spinner-text monospace">Crunching <a href="https://github.com/conscienceli">@conscienceli</a>'s contributions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Github Cards -->
+      <script>var count = 0;</script>
+      <script id="repo-card"
+      type="text/template"><div class="header"><a class="avatar" href="https://github.com/{login}"><img src="{avatar_url}&s=48"></a><strong class="name"><a href="https://github.com/{full_name}">{name}</a><sup class="language">{language}</sup></strong><span>{action}<a href="https://github.com/{login}">{login}</a></span><a class="button" href="https://github.com/{full_name}">Star</a></div><div class="content"><p>{description}{homepage}</p></div><div class="footer"><span class="status"><strong>{forks_count}</strong>Forks</span><span class="status"><strong>{watchers_count}</strong>Stars</span></div></script>
+      <script src="github-cards/card.js"></script>
+      <link rel="stylesheet" href="github-cards/card.css"></link>
+      
+      <!-- First Github Card -->
+      <div class="col-12 col-lg-6 m-0 p-0">
+        <div class="col py-2">
+          <div class="card p-0 m-0">
+            <div id="repo-card-container1" class="card-body m-0 p-0"></div>
+            <script>
+              var user = "conscienceli";
+              var repo = "iternet";
+              count += 1; 
+              var identity = 'ghcard-' + user + '-' + count;
+              update_card(document, user, repo, identity, "repo-card-container1");
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Github Card -->
+      <div class="col-12 col-lg-6 m-0 p-0">
+        <div class="col py-2">
+          <div class="card p-0 m-0">
+            <div id="repo-card-container2" class="card-body m-0 p-0"></div>
+            <script>
+              var user = "conscienceli";
+              var repo = "VoTT-label-export";
+              count += 1; 
+              var identity = 'ghcard-' + user + '-' + count;
+              update_card(document, user, repo, identity, "repo-card-container2");
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Github Card -->
+      <div class="col-12 col-lg-6 m-0 p-0">
+        <div class="col py-2">
+          <div class="card p-0 m-0">
+            <div id="repo-card-container3" class="card-body m-0 p-0"></div>
+            <script>
+              var user = "conscienceli";
+              var repo = "AR-Depth-Occlusion";
+              count += 1; 
+              var identity = 'ghcard-' + user + '-' + count;
+              update_card(document, user, repo, identity, "repo-card-container3");
+            </script>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  
+    <div class="see-all">
+      <a href="https://github.com/conscienceli">
+        See all repositories
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- <style type="text/css">
+
+  .github-card {
+      background: inherit!important;
+      color: inherit!important;
+    }
+</style> -->
+
+<!-- Github-cards -->
+<!-- <script src="github-cards/site.js"></script> -->
+<script src="github-cards/widget.js"></script>
+      
+
+
+<!-- Github-calendar -->
+<script>
+    // GitHubCalendar(".calendar", "your-username");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".github-calendar", "conscienceli", { responsive: true });
+
+    // Use a proxy
+    // GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
+</script>
+
+<style type="text/css">
+  .contrib-number{
+    color: inherit!important;
+    font-weight: inherit!important;
+  }
+
+  .calendar {
+    font-family: inherit!important;
+    /* background-color: white; */
+  }
+
+  /* @media screen and (max-width: 768px) {
+    .calendar {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  } */
+
+  .border {
+    border: none!important;
+  }
+
+</style>
