@@ -11,14 +11,14 @@
 //   return qs;
 // }
 
-function update_card(d, user, repo, identity, container) {
+function update_card(d, user, repo, identity, container, client_id, client_secret) {
   var qs = {
     user: user, 
+    repo: repo, 
     identity: identity, 
     container: container,
-    repo: repo, 
-    client_id: "Iv1.5c707edc168df977", 
-    client_secret: "f66a5ce08868111dd879c0d433cdecaa14c2edf5"
+    client_id: client_id, 
+    client_secret: client_secret
   };
 
   var baseurl = 'https://api.github.com/', i;

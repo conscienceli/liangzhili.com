@@ -31,8 +31,8 @@
         <div class="col py-2">
           <div class="card p-0 m-0">
             <div class="github-calendar card-body p-0 m-0">
-              <img src="https://github.githubassets.com/images/spinners/octocat-spinner-128.gif" class="spinner mx-auto"/>
-              <p class="spinner-text monospace">Crunching <a href="https://github.com/conscienceli">@conscienceli</a>'s contributions.</p>
+              <img src="img/octocat-spinner-128.gif" class="spinner mx-auto"/>
+              <p class="spinner-text monospace">Crunching <a href="https://github.com/{{$page.Params.user}}">@{{$page.Params.user}}</a>'s contributions.</p>
             </div>
           </div>
         </div>
@@ -45,54 +45,26 @@
       <script src="github-cards/card.js"></script>
       <link rel="stylesheet" href="github-cards/card.css"></link>
       
-      <!-- First Github Card -->
-      <div class="col-12 col-lg-6 m-0 p-0">
-        <div class="col py-2">
-          <div class="card p-0 m-0">
-            <div id="repo-card-container1" class="card-body m-0 p-0"></div>
-            <script>
-              var user = "conscienceli";
-              var repo = "iternet";
-              count += 1; 
-              var identity = 'ghcard-' + user + '-' + count;
-              update_card(document, user, repo, identity, "repo-card-container1");
-            </script>
+      {{ if $page.Params.item }}
+        {{ range $idx, $key := sort $page.Params.item ".order" "asc" }}
+          <div class="col-12 col-lg-6 m-0 p-0 {{ if .hide_on_mobile }}d-none d-md-block{{end}}">
+            <div class="col py-2">
+              <div class="card p-0 m-0">
+                <div id="repo-card-container-{{.repo}}" class="card-body m-0 p-0"></div>
+                <script>
+                  var user = {{$page.Params.user}};
+                  var repo = {{.repo}};
+                  count += 1; 
+                  var identity = 'ghcard-' + user + '-' + count;
+                  console.log(user, repo, identity);
+                  update_card(document, user, repo, identity, "repo-card-container-{{.repo}}", {{$page.Params.client_id}}, {{$page.Params.client_secret}});
+                </script>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        {{end}}
+      {{end}}
 
-      <!-- Second Github Card -->
-      <div class="col-12 col-lg-6 m-0 p-0">
-        <div class="col py-2">
-          <div class="card p-0 m-0">
-            <div id="repo-card-container2" class="card-body m-0 p-0"></div>
-            <script>
-              var user = "conscienceli";
-              var repo = "VoTT-label-export";
-              count += 1; 
-              var identity = 'ghcard-' + user + '-' + count;
-              update_card(document, user, repo, identity, "repo-card-container2");
-            </script>
-          </div>
-        </div>
-      </div>
-
-      <!-- Third Github Card -->
-      <div class="col-12 col-lg-6 m-0 p-0">
-        <div class="col py-2">
-          <div class="card p-0 m-0">
-            <div id="repo-card-container3" class="card-body m-0 p-0"></div>
-            <script>
-              var user = "conscienceli";
-              var repo = "AR-Depth-Occlusion";
-              count += 1; 
-              var identity = 'ghcard-' + user + '-' + count;
-              update_card(document, user, repo, identity, "repo-card-container3");
-            </script>
-          </div>
-        </div>
-      </div>
-    
     </div>
   
     <div class="see-all">
@@ -106,29 +78,10 @@
 
 </div>
 
-<!-- <style type="text/css">
-
-  .github-card {
-      background: inherit!important;
-      color: inherit!important;
-    }
-</style> -->
-
-<!-- Github-cards -->
-<!-- <script src="github-cards/site.js"></script> -->
-<script src="github-cards/widget.js"></script>
-      
-
 
 <!-- Github-calendar -->
 <script>
-    // GitHubCalendar(".calendar", "your-username");
-
-    // or enable responsive functionality:
-    GitHubCalendar(".github-calendar", "conscienceli", { responsive: true });
-
-    // Use a proxy
-    // GitHubCalendar(".calendar", "your-username", { proxy (username) { return fetch(`https://your-proxy.com/github?user=${username}`).then(r => r.text()) });
+    GitHubCalendar(".github-calendar", {{$page.Params.user}}, { responsive: true });
 </script>
 
 <style type="text/css">
@@ -153,7 +106,7 @@
     }
   } */
 
-  .border {
+  .github-calendar .border {
     border: none!important;
   }
 
