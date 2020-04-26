@@ -5,7 +5,7 @@ A new custom widget to show the Github activities. (Thanks the work of [Bloggify
 ###Widget Preview
 ![desktop-day](readme_files/desktop_day.png)
 ![desktop-night](readme_files/desktop_night.png)
-<!-- ![phone](readme_files/phone_github.jpg) -->
+![phone](readme_files/phone.png)
 
 ###Usage
 modify `content/home/coding-activities.md`
