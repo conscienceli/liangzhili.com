@@ -94,21 +94,21 @@ function update_card(d, user, repo, identity, container, client_id, client_secre
       })(links[i]);
     }
     d.getElementById(container).appendChild(card);
-    d.body.className = 'ready';
-    if (parent !== self && parent.postMessage) {
-      var height = Math.max(
-        d.body.scrollHeight,
-        d.documentElement.scrollHeight,
-        d.body.offsetHeight,
-        d.documentElement.offsetHeight,
-        d.body.clientHeight,
-        d.documentElement.clientHeight
-      );
-      parent.postMessage({
-        height: height,
-        sender: qs.identity || '*'
-      }, '*');
-    }
+    // d.body.className = 'ready';
+    // if (parent !== self && parent.postMessage) {
+    //   var height = Math.max(
+    //     d.body.scrollHeight,
+    //     d.documentElement.scrollHeight,
+    //     d.body.offsetHeight,
+    //     d.documentElement.offsetHeight,
+    //     d.body.clientHeight,
+    //     d.documentElement.clientHeight
+    //   );
+    //   parent.postMessage({
+    //     height: height,
+    //     sender: qs.identity || '*'
+    //   }, '*');
+    // }
   }
 
   function userCard(user) {
