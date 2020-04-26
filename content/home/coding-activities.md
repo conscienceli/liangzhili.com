@@ -31,4 +31,9 @@ repo = "AR-Depth-Occlusion"
 hide_on_mobile = true
 order = 3
 
+[[item]]
+repo = "liangzhili.com"
+hide_on_mobile = true
+order = 4
+
 +++

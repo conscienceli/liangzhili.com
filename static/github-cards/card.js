@@ -224,7 +224,8 @@ function update_card(d, user, repo, identity, container, client_id, client_secre
   }
 
   function escape(text) {
-    return text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    if (text){return text.replace(/</g, '&lt;').replace(/>/g, '&gt;');}
+    else {return null;}
   }
 
 }

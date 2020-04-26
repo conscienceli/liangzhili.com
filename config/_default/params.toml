@@ -112,6 +112,7 @@ contact_links = [
   {icon = "facebook", icon_pack = "fab", name = "Follow Me on Facebook", link = "https://www.facebook.com/liliangzhi"},
   {icon = "linkedin", icon_pack = "fab", name = "Connect Me on Linkedin", link = "https://www.linkedin.com/in/liangzhi-li-80a553154/"},
   {icon = "instagram", icon_pack = "fab", name = "Follow Me on Instagram", link = "http://www.instagram.com/conscienceli"},
+  {icon = "code", icon_pack = "fas", name = "Source code is available here (Hugo with NEW custom widgets!)", link = "https://github.com/conscienceli/liangzhili.com"},
   # {icon = "youtube", icon_pack = "fab", name = "Check My Youtube Channel", link = "https://www.youtube.com/channel/UCMv6QJuIdeV8oHzRm7GOkqA"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
