@@ -157,6 +157,7 @@ function update_card(d, user, repo, identity, container, client_id, client_secre
     var url = baseurl + 'repos/' + user + '/' + repo;
     request(url, function(data) {
       data = data || {};
+      if (!('id' in data)){return;} //network failure
       var message = data.message;
       var defaults = '0';
       if (message) {
