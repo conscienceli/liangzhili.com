@@ -2,11 +2,12 @@ The source code of a [website](https://www.liangzhili.com) using Hugo [Academic]
 
 A new custom widget to show the Github activities. (Thanks the work of [Bloggify/github-calendar](https://github.com/Bloggify/github-calendar) and [lepture/github-cards](https://github.com/lepture/github-cards))
 
-Widget Preview:
-![desktop](readme_files/desktop_github.jpg)
-![phone](readme_files/phone_github.jpg)
+###Widget Preview
+![desktop-day](readme_files/desktop_day.png)
+![desktop-night](readme_files/desktop_night.png)
+<!-- ![phone](readme_files/phone_github.jpg) -->
 
-Usage:
+###Usage
 modify `content/home/coding-activities.md`
 
 ```python
