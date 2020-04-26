@@ -56,7 +56,7 @@
                   var repo = {{.repo}};
                   count += 1; 
                   var identity = 'ghcard-' + user + '-' + count;
-                  console.log(user, repo, identity);
+                  // console.log(user, repo, identity);
                   update_card(document, user, repo, identity, "repo-card-container-{{.repo}}", {{$page.Params.client_id}}, {{$page.Params.client_secret}});
                 </script>
               </div>
