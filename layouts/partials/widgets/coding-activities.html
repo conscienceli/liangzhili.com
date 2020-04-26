@@ -50,7 +50,9 @@
           <div class="col-12 col-lg-6 m-0 p-0 {{ if .hide_on_mobile }}d-none d-md-block{{end}}">
             <div class="col py-2">
               <div class="card p-0 m-0">
-                <div id="repo-card-container-{{.repo}}" class="card-body m-0 p-0"></div>
+                <div id="repo-card-container-{{.repo}}" class="card-body m-0 p-0">
+                  <img src="img/octocat-spinner-128.gif" class="spinner mx-auto"/>
+                </div>
                 <script>
                   var user = {{$page.Params.user}};
                   var repo = {{.repo}};

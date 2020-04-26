@@ -93,7 +93,9 @@ function update_card(d, user, repo, identity, container, client_id, client_secre
         link.target = '_' + (qs.target || 'top');
       })(links[i]);
     }
-    d.getElementById(container).appendChild(card);
+    var wrap = document.createElement('div');
+    wrap.appendChild(card.cloneNode(true));
+    d.getElementById(container).innerHTML = wrap.innerHTML;
     // d.body.className = 'ready';
     // if (parent !== self && parent.postMessage) {
     //   var height = Math.max(
