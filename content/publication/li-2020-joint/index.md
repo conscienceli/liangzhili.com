@@ -7,7 +7,7 @@ publication_types: ["1"]
 
 abstract: "Retinal imaging serves as a valuable tool for diagnosis of various diseases. However, reading retinal images is a difficult and time-consuming task even for experienced specialists. The fundamental step towards automated retinal image analysis is vessel segmentation and artery/vein classification, which provide various information on potential disorders. To improve the performance of the existing automated methods for retinal image analysis, we propose a two-step vessel classification. We adopt a UNet-based model, SeqNet, to accurately segment vessels from the background and make prediction on the vessel type. Our model does segmentation and classification sequentially, which alleviates the problem of label distribution bias and facilitates training. To further refine classification results, we post-process them considering the structural information among vessels to propagate highly confident prediction to surrounding vessels. Our experiments show that our method improves AUC to 0.98 for segmentation and the accuracy to 0.92 in classification over DRIVE dataset."
 featured: false
-publication: "Medical Imaging with Deep Learning (MIDL) 2020"
+publication: "Medical Imaging with Deep Learning (MIDL)"
 doi: ""
 url_pdf: "https://arxiv.org/pdf/2005.13337.pdf"
 url_code: ""
