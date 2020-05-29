@@ -10,7 +10,7 @@ publication: "*The IEEE Winter Conference on Applications of Computer Vision*"
 abstract: "Retinal vessel segmentation is of great interest for diagnosis of retinal vascular diseases. To further improve the performance of vessel segmentation, we propose IterNet, a new model based on UNet, with the ability to find obscured details of the vessel from the segmented vessel image itself, rather than the raw input image. IterNet consists of multiple iterations of a mini-UNet, which can be 4× deeper than the common UNet. IterNet also adopts the weight-sharing and skip-connection features to facilitate training; therefore, even with such a large architecture, IterNet can still learn from merely 10∼20 labeled images, without pre-training or any prior knowledge. IterNet achieves AUCs of 0.9816, 0.9851, and 0.9881 on three mainstream datasets, namely DRIVE, CHASE-DB1, and STARE, respectively, which currently are the best scores in the literature. The source code is available."
 featured: true
 doi: ""
-url_pdf: "https://arxiv.org/pdf/1912.05763"
+url_pdf: "pdfs/li-2020-iternet.pdf"
 url_code: "https://github.com/conscienceli/IterNet"
 url_dataset: ""
 url_poster: "poster/wacv20.pdf"

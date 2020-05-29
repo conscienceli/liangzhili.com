@@ -9,7 +9,7 @@ abstract: "Retinal imaging serves as a valuable tool for diagnosis of various di
 featured: false
 publication: "Medical Imaging with Deep Learning (MIDL)"
 doi: ""
-url_pdf: "https://arxiv.org/pdf/2005.13337.pdf"
+url_pdf: "pdfs/li-2020-joint.pdf"
 url_code: ""
 url_dataset: ""
 url_poster: ""
