@@ -6,4 +6,5 @@ resources/
 public/
 
 publications.bib
-static/pdfs/*
+static/paper/*
+.DS_Store
