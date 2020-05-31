@@ -10,7 +10,7 @@ featured: false
 publication: "Medical Imaging with Deep Learning (MIDL)"
 doi: ""
 url_pdf: "paper/li-2020-joint.pdf"
-url_code: ""
+url_code: "https://github.com/conscienceli/SeqNet"
 url_dataset: ""
 url_poster: ""
 url_project: ""
