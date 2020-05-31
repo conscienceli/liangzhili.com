@@ -32,7 +32,7 @@ hide_on_mobile = true
 order = 3
 
 [[item]]
-repo = "liangzhili.com"
+repo = "SeqNet"
 hide_on_mobile = true
 order = 4
 
