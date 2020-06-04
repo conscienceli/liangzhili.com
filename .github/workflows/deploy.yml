@@ -16,7 +16,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.2.0
       with:
-        hugo-version: '0.71.1'
+        hugo-version: '0.69.0'
         extended: true
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir -b "https://www.liangzhili.com"
