@@ -7,4 +7,5 @@ public/
 
 publications.bib
 static/paper/*
+static/poster/*
 .DS_Store
