@@ -23,7 +23,7 @@ jobs:
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0
       with:
-        switches: -avzr --delete --exclude="/public/paper/"
+        switches: -avzr --delete --exclude-from 'rsync-exclude-list.txt'
         path: public
         remote_path: ${{ secrets.REMOTE_PATH }}
         remote_host: ${{ secrets.DEPLOY_HOST }}
