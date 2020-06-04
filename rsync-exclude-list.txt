@@ -1,0 +1,3 @@
+public/paper
+public/poster
+rsync-exclude-list.txt
