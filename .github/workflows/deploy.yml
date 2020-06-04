@@ -13,11 +13,17 @@ jobs:
       uses: srt32/git-actions@v0.0.3
       with:
         args: git submodule update --init --recursive
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.0
+      with:
+        hugo-version: '0.69.0'
+    - name: Build
+      run: hugo --gc --minify --cleanDestinationDir -b "https://www.liangzhili.com"
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0
       with:
-        switches: -avzr --delete --exclude="/static/paper/"
-        path: /
+        switches: -avzr --delete --exclude="/public/paper/"
+        path: public
         remote_path: ${{ secrets.REMOTE_PATH }}
         remote_host: ${{ secrets.DEPLOY_HOST }}
         remote_port: ${{ secrets.DEPLOY_PORT }}
