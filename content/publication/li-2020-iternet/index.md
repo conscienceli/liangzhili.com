@@ -1,6 +1,6 @@
 ---
 title: "IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks"
-date: 2020-01-01
+date: 2020-03-01
 publishDate: 2020-04-17T13:51:41.933452Z
 authors: ["Liangzhi Li", "Manisha Verma", "Yuta Nakashima", "Hajime Nagahara", "Ryo Kawasaki"]
 publication_types: ["1"]

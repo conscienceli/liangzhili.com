@@ -1,6 +1,6 @@
 ---
 title: "Joint Learning of Vessel Segmentation and Artery/Vein Classification with Post-processing"
-date: 2020-01-01
+date: 2020-07-01
 publishDate: 2020-05-28T00:37:42.999282Z
 authors: ["Liangzhi Li", "Manisha Verma", "Yuta Nakashima", "Ryo Kawasaki", "Hajime Nagahara"]
 publication_types: ["1"]
