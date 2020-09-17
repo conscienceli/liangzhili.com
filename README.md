@@ -27,6 +27,7 @@ title = "Coding Activities"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 
+user = "user1"
 client_id = "" #app_id
 client_secret = "" #app_secret
 

@@ -12,6 +12,7 @@ title = "Coding Activities"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 
+user = "conscienceli"
 client_id = "Iv1.5c707edc168df977"
 client_secret = "f66a5ce08868111dd879c0d433cdecaa14c2edf5"
 
