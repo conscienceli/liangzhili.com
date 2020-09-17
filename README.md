@@ -27,27 +27,30 @@ title = "Coding Activities"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 
-user = "user"
 client_id = "" #app_id
 client_secret = "" #app_secret
 
 [[item]]
+user = "user1"
 repo = "repo1"
 hide_on_mobile = false
 order = 1
 
 [[item]]
+user = "user1"
 repo = "repo2"
 hide_on_mobile = false
 order = 2
 
 [[item]]
+user = "user1"
 repo = "repo3"
 hide_on_mobile = true
 order = 3
 
 [[item]]
-repo = "repo4"
+user = "user2"
+repo = "repo1"
 hide_on_mobile = true
 order = 4
 

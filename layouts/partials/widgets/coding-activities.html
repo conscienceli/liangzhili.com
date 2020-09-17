@@ -54,7 +54,7 @@
                   <img src="img/octocat-spinner.svg" class="octo-card mx-auto"/>
                 </div>
                 <script>
-                  var user = {{$page.Params.user}};
+                  var user = {{.user}};
                   var repo = {{.repo}};
                   count += 1; 
                   var identity = 'ghcard-' + user + '-' + count;
