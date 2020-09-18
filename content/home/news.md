@@ -29,6 +29,12 @@ date_format = "Jan 2006"
 [[item]]
   url = ""
   ad = false
+  news = "A preprint (our new work on explainable AI) is released."
+  date = "2020-09-14"
+
+[[item]]
+  url = ""
+  ad = false
   news = "A paper is accepted at MIDL 2020."
   date = "2020-03-01"
 
