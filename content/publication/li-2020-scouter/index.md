@@ -19,7 +19,7 @@ featured: true
 draft: false
 
 doi: ""
-url_pdf: "https://arxiv.org/abs/2009.06138"
+url_pdf: "paper/li-2020-scouter.pdf"
 url_code: "https://github.com/wbw520/scouter"
 url_dataset: ""
 url_poster: ""
