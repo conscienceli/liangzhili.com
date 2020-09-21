@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date = "2025-02-01"
 
 [[item]]
-  url = "http://www.ids.osaka-u.ac.jp/en/careers-intern/"
+  url = ""
   ad = true
   news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern). No requirement on language!"
   date = "2025-01-01"
@@ -35,16 +35,4 @@ date_format = "Jan 2006"
   ad = false
   news = "A preprint (our new work on explainable AI) is released."
   date = "2020-09-14"
-
-[[item]]
-  url = ""
-  ad = false
-  news = "A paper is accepted at MIDL 2020."
-  date = "2020-03-01"
-
-[[item]]
-  url = ""
-  ad = false
-  news = "A paper is accepted at ARVO 2020."
-  date = "2020-02-01"
 +++
