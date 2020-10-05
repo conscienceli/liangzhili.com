@@ -20,14 +20,9 @@ date_format = "Jan 2006"
 
 
 [[item]]
-  ad = true
-  news = "There are several RA positions (1400 yen/hour) for a medical project in our lab. Please contact me if you are a graduate student at Osaka University and interested in computer vision or medical image analysis."
-  date = "2025-02-01"
-
-[[item]]
   url = ""
   ad = true
-  news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern). No requirement on language!"
+  news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern)."
   date = "2025-01-01"
 
 [[item]]
