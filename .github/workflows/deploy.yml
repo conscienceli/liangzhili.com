@@ -9,17 +9,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      
     - name: Checkout submodules
       uses: srt32/git-actions@v0.0.3
       with:
         args: git submodule update --init --recursive
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2.2.0
       with:
         hugo-version: '0.69.0'
         extended: true
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+    
     - name: Build
       run: hugo --gc --minify --cleanDestinationDir -b "https://www.liangzhili.com"
+    
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0
       with:
@@ -30,3 +38,5 @@ jobs:
         remote_port: ${{ secrets.DEPLOY_PORT }}
         remote_user: ${{ secrets.DEPLOY_USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
