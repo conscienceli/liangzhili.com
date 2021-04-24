@@ -13,8 +13,8 @@ authors:
 - Yasushi Yagi
 tags: []
 categories: []
-date: '2020-10-19'
-lastmod: 2020-10-25T09:56:40+09:00
+date: '2021-03-22'
+lastmod: 2021-03-22T09:56:40+09:00
 featured: false
 draft: false
 
@@ -42,9 +42,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-10-19T00:56:39.378318Z'
+publishDate: '2021-03-22T00:56:39.378318Z'
 publication_types:
-- 0
+- 2
 abstract: 'Semantic video segmentation is a key challenge for various applications. This paper presents a new model named Noisy-LSTM, which is trainable in an end-to-end manner, with convolutional LSTMs (ConvLSTMs) to leverage the temporal coherency in video frames. We also present a simple yet effective training strategy, which replaces a frame in video sequence with noises. This strategy spoils the temporal coherency in video frames during training and thus makes the temporal links in ConvLSTMs unreliable, which may consequently improve feature extraction from video frames, as well as serve as a regularizer to avoid overfitting, without requiring extra data annotation or computational costs. Experimental results demonstrate that the proposed model can achieve state-of-the-art performances in both the CityScapes and EndoVis2018 datasets.'
-publication: 'arXiv preprint'
+publication: 'IEEE Access'
 ---
