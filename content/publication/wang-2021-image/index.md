@@ -15,7 +15,7 @@ authors:
 - Noriko Kando
 tags: []
 categories: []
-date: '2021-09-07'
+date: '2021-04-24'
 lastmod: 2021-04-24T18:28:05+08:00
 featured: false
 draft: false
@@ -44,9 +44,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-09-07T10:28:05.314682Z'
+publishDate: '2021-04-24T10:28:05.314682Z'
 publication_types:
 - 1
-abstract: ''
+abstract: 'Deep hashing has been widely used to approximate nearest-neighbor search for image retrieval tasks. Most of them are trained with image-label pairs without any inter-label relationship, which may not make full use of the real-world data. This paper presents deep hashing, named HA$^2$SH, that leverages multiple types of labels with hierarchical structures that an ethnological museum assigns to their artifacts. We experimentally prove that HA$^2$SH can learn to generate hashes that give a better retrieval performance.'
 publication: '*ACM International Conference on Multimedia Retrieval (ICMR)*'
 ---
