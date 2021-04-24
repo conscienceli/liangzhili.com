@@ -13,13 +13,13 @@ authors:
 - Hajime Nagahara
 tags: []
 categories: []
-date: '2021-06-19'
+date: '2021-04-24'
 lastmod: 2021-04-24T18:37:05+08:00
 featured: false
 draft: false
 
 doi: ""
-url_pdf: ""
+url_pdf: "paper/wang-2021-mtunet.pdf"
 url_code: "https://github.com/wbw520/MTUNet"
 url_dataset: ""
 url_poster: ""
@@ -42,9 +42,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-06-19T10:37:05.698410Z'
+publishDate: '2021-04-24T10:37:05.698410Z'
 publication_types:
 - 1
-abstract: ''
+abstract: 'Few-shot learning (FSL) approaches, mostly neural network-based, are assuming that the pre-trained knowledge can be obtained from base (seen) categories and transferred to novel (unseen) categories. However, the black-box nature of neural networks makes it difﬁcult to understand what is actually transferred, which may hamper its application in some risk-sensitive areas. In this paper, we reveal a new way to perform explainable FSL for image classiﬁcation, using discriminative patterns and pairwise matching. Experimental results prove that the proposed method can achieve satisfactory explainability on two mainstream datasets.'
 publication: '*IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Responsible Computer Vision Workshop*'
 ---
