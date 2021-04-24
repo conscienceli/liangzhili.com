@@ -84,6 +84,16 @@
 <!-- Github-calendar -->
 <script>
     GitHubCalendar(".github-calendar", {{$page.Params.user}}, { responsive: true });
+    var checkExist = setInterval(function() {
+      var calendar_graph = document.getElementsByClassName('js-calendar-graph').item(0)
+      if (calendar_graph.childNodes.length > 2) {
+              console.log("Github calendar loaded!");
+              while (calendar_graph.childNodes.length > 2) {
+                  calendar_graph.removeChild(calendar_graph.lastChild);
+              }
+              clearInterval(checkExist);
+          }
+    }, 100); // check every 100ms
 </script>
 
 <style type="text/css">
