@@ -22,7 +22,7 @@ bio: Liangzhi Li is a researcher with Institute for Datability Science, Osaka Un
 
 interests:
 - Computer Vision
-- Deep Learning
+- Explainable AI
 - Medical Imaging
 
 education:
