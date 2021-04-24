@@ -24,10 +24,4 @@ date_format = "Jan 2006"
   ad = true
   news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern)."
   date = "2025-01-01"
-
-[[item]]
-  url = ""
-  ad = false
-  news = "A preprint (our new work on explainable AI) is released."
-  date = "2020-09-14"
 +++
