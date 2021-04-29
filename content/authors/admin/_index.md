@@ -27,13 +27,13 @@ interests:
 
 education:
   courses:
-  - course: PhD in Engineering
+  - course: Ph.D. in Engineering
     institution: Muroran Institute of Technology, Japan
     year: 2019
-  - course: MEng in Computer Science
+  - course: M.S. in Computer Science
     institution: South China University of Technology (SCUT)
     year: 2016
-  - course: BSc in Computer Science
+  - course: B.S. in Computer Science
     institution: South China University of Technology (SCUT)
     year: 2012
 
