@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Specially Appointed Assistant Professor
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
@@ -79,4 +79,4 @@ user_groups:
 - Visitors
 ---
 
-Liangzhi Li is a researcher with Institute for Datability Science, Osaka University, Japan. He received the B.Sc and M.Eng degrees in Computer Science from South China University of Technology (SCUT), China, in 2012 and 2016, respectively, and Ph.D. degree in Engineering from Muroran Institute of Technology, Japan, in 2019. His main fields of research interest include computer vision, deep learning, and medical imaging. He has received the best paper award from FCST 2017 and IEEE Sapporo Section (2018).
+Liangzhi Li is a specially appointed assistant professor with Institute for Datability Science (IDS), Osaka University, Japan. He received the B.S and M.S degrees in Computer Science from South China University of Technology (SCUT), China, in 2012 and 2016, respectively, and the Ph.D. degree in Engineering from Muroran Institute of Technology, Japan, in 2019. After graduation, he worked as a researcher (2019-2021) and is now working as an assistant professor (2021-present) at Osaka University. His main fields of research interest include computer vision, explainable AI, and medical imaging. He has received the best paper award from FCST 2017 and IEEE Sapporo Section (2018).
