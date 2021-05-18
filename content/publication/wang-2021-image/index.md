@@ -21,8 +21,8 @@ featured: false
 draft: false
 
 doi: ""
-url_pdf: ""
-url_code: ""
+url_pdf: "paper/wang-2021-image.pdf"
+url_code: "https://github.com/wbw520/minpaku"
 url_dataset: ""
 url_poster: ""
 url_project: ""
