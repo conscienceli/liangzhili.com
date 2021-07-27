@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 
 [[item]]
   url = "publication/wang-2021-image/"
-  ad = true
+  ad = false
   news = "A paper accepted at ICMR 2021."
   date = "2021-04-01"
 +++
