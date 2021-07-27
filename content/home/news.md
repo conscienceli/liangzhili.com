@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
-  url = "publication/li-2020-scouter/"
+  url = "publication/li-2021-scouter/"
   ad = false
   news = "A paper accepted at ICCV 2021."
   date = "2021-07-23"
