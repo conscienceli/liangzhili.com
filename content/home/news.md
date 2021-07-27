@@ -24,4 +24,16 @@ date_format = "Jan 2006"
   ad = true
   news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern)."
   date = "2025-01-01"
+
+[[item]]
+  url = "publication/li-2020-scouter/"
+  ad = false
+  news = "A paper accepted at ICCV 2021."
+  date = "2021-07-23"
+
+[[item]]
+  url = "publication/wang-2021-image/"
+  ad = true
+  news = "A paper accepted at ICMR 2021."
+  date = "2021-04-01"
 +++
