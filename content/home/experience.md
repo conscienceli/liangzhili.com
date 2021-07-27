@@ -18,12 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Assistant Professor"
+  company = "Institute for Datability Science, Osaka University"
+  company_url = "http://www.ids.osaka-u.ac.jp/"
+  location = "Suita, Osaka, Japan"
+  date_start = "2021-05-01"
+  date_end = ""
+  description = """
+  """
+
+[[experience]]
   title = "Postdoctoral Researcher"
   company = "Institute for Datability Science, Osaka University"
   company_url = "http://www.ids.osaka-u.ac.jp/"
   location = "Suita, Osaka, Japan"
   date_start = "2019-04-01"
-  date_end = ""
+  date_end = "2021-04-30"
   description = """
   """
 
