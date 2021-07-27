@@ -13,13 +13,13 @@ authors:
 - Hajime Nagahara
 tags: []
 categories: []
-date: '2020-09-14'
-lastmod: 2020-09-18T12:52:54+09:00
+date: '2021-10-11'
+lastmod: 2021-10-11T12:52:54+09:00
 featured: true
 draft: false
 
 doi: ""
-url_pdf: "paper/li-2020-scouter.pdf"
+url_pdf: "paper/li-2021-scouter.pdf"
 url_code: "https://github.com/wbw520/scouter"
 url_dataset: ""
 url_poster: ""
@@ -42,9 +42,9 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2020-09-18T03:52:53.928825Z'
+publishDate: '2021-10-11T03:52:53.928825Z'
 publication_types:
-- 0
+- 1
 abstract: "Explainable artificial intelligence has been gaining attention in the past few years. However, most existing methods are based on gradients or intermediate features, which are not directly involved in the decision-making process of the classifier. In this paper, we propose a slot attention-based classifier called SCOUTER for transparent yet accurate classification. Two major differences from other attention-based methods include: (a) SCOUTER's explanation is involved in the final confidence for each category, offering more intuitive interpretation, and (b) all the categories have their corresponding positive or negative explanation, which tells \"why the image is of a certain category\" or \"why the image is not of a certain category.\" We design a new loss tailored for SCOUTER that controls the model's behavior to switch between positive and negative explanations, as well as the size of explanatory regions. Experimental results show that SCOUTER can give better visual explanations while keeping good accuracy on small and medium-sized datasets."
-publication: 'arXiv preprint'
+publication: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 ---
