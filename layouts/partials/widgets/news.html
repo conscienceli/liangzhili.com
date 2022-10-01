@@ -3,6 +3,13 @@
 
 <!-- News widget -->
 <div class="row">
+  <div class="col-12 mom">
+    <a href="post/my-loving-mother/">
+    My loving mother, Du Xianling (杜现玲), passed away on September 27, 2022, at the age of 56. 
+    She has been fighting lung cancer for two years, bravely trying many experimental therapies around the world.
+    We believe that her strong heart, selflessness, and kindness will leave the world with highly-valuable clinical data and treatment experience, which can accelerate related clinical research and have a great potential to bring a life-changing opportunity for some patients with similar driver genes.
+    </a>
+  </div>
   <div class="col-12 col-lg-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
@@ -32,3 +39,10 @@
     {{end}}
   </div>
 </div>
+
+<style type="text/css">
+  .mom{
+    margin-bottom: 5%;
+  }
+
+</style>
