@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "My Loving Mother"
+title: "My Loving Mother （Du Xianling, 杜现玲）"
 subtitle: ""
 summary: ""
 authors: []
