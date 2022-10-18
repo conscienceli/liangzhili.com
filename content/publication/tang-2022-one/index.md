@@ -1,9 +1,9 @@
 ---
 title: One-shot pruning of gated recurrent unit neural network by sensitivity for
   time-series prediction
-date: '2022-10-01'
+date: '2022-11-01'
 draft: false
-publishDate: '2022-11-01T02:32:51.414474Z'
+publishDate: '2022-10-01T02:32:51.414474Z'
 authors:
 - Hong Tang
 - Xiangzheng Ling
