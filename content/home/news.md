@@ -26,14 +26,20 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
-  url = "publication/li-2021-scouter/"
+  url = "publication/tang-2022-one/"
   ad = false
-  news = "A paper accepted at ICCV 2021."
-  date = "2021-07-23"
+  news = "A paper published in Neurocomputing."
+  date = "2022-11-01"
 
 [[item]]
-  url = "publication/wang-2021-image/"
+  url = "publication/wang-2022-match/"
   ad = false
-  news = "A paper accepted at ICMR 2021."
-  date = "2021-04-01"
+  news = "A paper published in Applied Intelligence."
+  date = "2022-08-27"
+
+[[item]]
+  url = "publication/kawasaki-2022-cardiovascular/"
+  ad = false
+  news = "An abstract accepted at IOVS."
+  date = "2022-06-01"
 +++
