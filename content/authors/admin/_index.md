@@ -53,7 +53,7 @@ social:
   link: https://github.com/conscienceli
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/jconlee8
+  link: https://twitter.com/liangzhi_li
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/liliangzhi
