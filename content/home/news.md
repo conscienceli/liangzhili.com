@@ -26,6 +26,12 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
+  url = ""
+  ad = false
+  news = "A paper accepted in PLOS Digital Health."
+  date = "2022-12-01"
+
+[[item]]
   url = "publication/tang-2022-one/"
   ad = false
   news = "A paper published in Neurocomputing."
