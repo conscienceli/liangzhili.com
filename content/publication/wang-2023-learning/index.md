@@ -15,10 +15,10 @@ featured: true
 
 
 doi: ""
-url_pdf: "poster/wang-2023-learning.pdf"
+url_pdf: "paper/wang-2023-learning.pdf"
 url_code: "https://github.com/wbw520/BotCL"
 url_dataset: ""
-url_poster: ""
+url_poster: "poster/wang-2023-learning.pdf"
 url_project: ""
 url_slides: ""
 url_source: ""
