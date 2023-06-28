@@ -18,7 +18,7 @@ lastmod: 2023-05-04T16:03:33+08:00
 featured: false
 draft: false
 
-doi: ""
+doi: "https://doi.org/10.1186/s12911-023-02160-0"
 url_pdf: "paper/wang-2023-real.pdf"
 url_code: ""
 url_dataset: ""

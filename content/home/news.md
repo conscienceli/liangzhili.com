@@ -26,6 +26,12 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
+  url = ""
+  ad = false
+  news = "A paper accepted in MICCAI 2023."
+  date = "2023-06-24"
+
+[[item]]
   url = "publication/wang-2023-real/"
   ad = false
   news = "A paper accepted in BMC Medical Informatics and Decision Making."
@@ -38,7 +44,7 @@ date_format = "Jan 2006"
   date = "2023-02-28"
 
 [[item]]
-  url = ""
+  url = "publication/li-2023-automated/"
   ad = false
   news = "A paper accepted in PLOS Digital Health."
   date = "2022-12-01"
