@@ -26,6 +26,12 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
+  url = "publication/wang-2023-learning/"
+  ad = false
+  news = "A paper accepted in CVPR 2023."
+  date = "2023-02-28"
+
+[[item]]
   url = ""
   ad = false
   news = "A paper accepted in PLOS Digital Health."
