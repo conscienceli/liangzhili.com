@@ -26,6 +26,12 @@ date_format = "Jan 2006"
   date = "2025-01-01"
 
 [[item]]
+  url = "publication/wang-2023-real/"
+  ad = false
+  news = "A paper accepted in BMC Medical Informatics and Decision Making."
+  date = "2023-03-23"
+
+[[item]]
   url = "publication/wang-2023-learning/"
   ad = false
   news = "A paper accepted in CVPR 2023."
