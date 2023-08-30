@@ -19,11 +19,11 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 
-[[item]]
-  url = ""
-  ad = true
-  news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern)."
-  date = "2025-01-01"
+# [[item]]
+#  url = ""
+#  ad = true
+#  news = "Send me an email if you are interested in studying at our lab (as a PhD student or an intern)."
+#  date = "2025-01-01"
 
 [[item]]
   url = ""
