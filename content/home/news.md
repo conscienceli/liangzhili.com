@@ -28,6 +28,24 @@ date_format = "Jan 2006"
 [[item]]
   url = ""
   ad = false
+  news = "A paper accepted in WACV 2024."
+  date = "2023-10-24"
+
+[[item]]
+  url = ""
+  ad = false
+  news = "Three papers accepted in EMNLP 2023."
+  date = "2023-10-08"
+
+[[item]]
+  url = ""
+  ad = false
+  news = "A paper accepted in NeurIPS 2023."
+  date = "2023-09-22"
+
+[[item]]
+  url = ""
+  ad = false
   news = "A paper accepted in ICA3PP 2023."
   date = "2023-08-02"
 
