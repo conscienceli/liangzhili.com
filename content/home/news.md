@@ -46,6 +46,12 @@ date_format = "Jan 2006"
 [[item]]
   url = ""
   ad = false
+  news = "A paper accepted in NLPCC 2023."
+  date = "2023-08-06"
+
+[[item]]
+  url = ""
+  ad = false
   news = "A paper accepted in ICA3PP 2023."
   date = "2023-08-02"
 
