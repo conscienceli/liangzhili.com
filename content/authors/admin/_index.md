@@ -12,6 +12,9 @@ superuser: true
 # Role/position
 # Organizations/Affiliations
 roles:
+- position: Co-Founder & CTO
+  organization: Climind
+  url: "https://home.climind.co/"
 - position: VP and Chief Scientist
   organization: Xiamen Meet You Co., Ltd
   url: "https://www.meiyou.com/"
