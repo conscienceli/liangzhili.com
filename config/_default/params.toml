@@ -108,7 +108,7 @@ office_hours = []
 contact_links = [
  # {icon = "google-scholar", icon_pack = "ai", name = "Check My Google Scholar", link = "https://scholar.google.com/citations?user=JIRw_tMAAAAJ"},
  # {icon = "github", icon_pack = "fab", name = "Check My Github Repositories", link = "https://github.com/conscienceli"},
- {icon = "twitter", icon_pack = "fab", name = "Follow Me on Twitter", link = "https://twitter.com/jconlee8"},
+ {icon = "twitter", icon_pack = "fab", name = "Follow Me on Twitter", link = "https://twitter.com/liangzhi_li"},
  # {icon = "facebook", icon_pack = "fab", name = "Follow Me on Facebook", link = "https://www.facebook.com/liliangzhi"},
  # {icon = "linkedin", icon_pack = "fab", name = "Connect Me on Linkedin", link = "https://www.linkedin.com/in/liangzhi-li-80a553154/"},
  {icon = "instagram", icon_pack = "fab", name = "Follow Me on Instagram", link = "http://www.instagram.com/conscienceli"},
